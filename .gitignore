@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+files/wav
+files/miniTrain
+files/miniTest
+
 # C extensions
 *.so
 

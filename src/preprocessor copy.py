@@ -15,7 +15,6 @@ def double_channel(sig):
         return sig
     duplicated = torch.cat([audio, audio])
     return duplicated, sr
-    # return sig
 
 
 def downsample(sig, new_sr=22050):
